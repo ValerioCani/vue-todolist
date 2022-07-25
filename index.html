@@ -11,7 +11,7 @@
     <body>
         <div id="app">
             <label for="Aggiungi"><h1>AGGIUNGI COSE DA FARE!!</h1></label><br><br>
-            <input id="Aggiungi" type="text" placeholder="Oggi devo..." v-model="NewDaFare"><br><br>
+            <input id="Aggiungi" type="text" placeholder="Oggi devo..." v-model="NewDaFare" v-on:keyup.enter="aggiungi"><br><br>
             <button @click="aggiungi">Aggiungi</button> <br><br>
             <ul>
                 <li v-for="(dafare, index) in lista" ><span @click="giaFatto(index)">{{dafare.text}}</span><i class="fa-solid fa-circle-minus" @click="cancella(index)"></i></li>
