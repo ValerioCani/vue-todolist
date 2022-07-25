@@ -11,30 +11,6 @@ var app = new Vue({
                 text:'allenarmi',
                 done:'false'
             },
-            {
-                text:'finire gli esercizi',
-                done:'false'
-            },
-            {
-                text:'allenarmi',
-                done:'false'
-            },
-            {
-                text:'finire gli esercizi',
-                done:'false'
-            },
-            {
-                text:'allenarmi',
-                done:'false'
-            },
-            {
-                text:'finire gli esercizi',
-                done:'false'
-            },
-            {
-                text:'allenarmi',
-                done:'false'
-            },
         ]
     },
     methods:{

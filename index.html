@@ -10,9 +10,9 @@
     </head>
     <body>
         <div id="app">
-            <label for="Aggiungi">Aggiungi cose da fare</label>
-            <button id="Aggiungi" @click="aggiungi">Aggiungi</button> <br><br>
-            <input type="text" placeholder="Oggi devo..." v-model="NewDaFare"><br><br>
+            <label for="Aggiungi"><h1>AGGIUNGI COSE DA FARE!!</h1></label><br><br>
+            <input id="Aggiungi" type="text" placeholder="Oggi devo..." v-model="NewDaFare"><br><br>
+            <button @click="aggiungi">Aggiungi</button> <br><br>
             <ul>
                 <li v-for="(dafare, index) in lista" ><span @click="giaFatto(index)">{{dafare.text}}</span><i class="fa-solid fa-circle-minus" @click="cancella(index)"></i></li>
             </ul>
