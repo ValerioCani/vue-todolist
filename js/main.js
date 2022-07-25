@@ -4,11 +4,11 @@ var app = new Vue({
         NewDaFare: "", 
         lista:[
             {
-                text:'finire gli esercizi',
+                text:'suonare la cornamusa',
                 done:'false'
             },
             {
-                text:'allenarmi',
+                text:'fare una tendata',
                 done:'false'
             },
         ]

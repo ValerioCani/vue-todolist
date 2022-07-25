@@ -30,12 +30,24 @@ label{
     color: #7B7BD3;
 }
 
+input{
+    color: #7B7BD3;
+    background-color: #7FE5FF;
+    font-size: large;
+    font-weight: bold;
+    height: 2rem;
+    border-radius: 2rem;
+    border: solid 2px #7B7BD3;
+}
+
 button{
     cursor: pointer;
     font-weight: inherit;
     font-family: inherit;
     padding:2px;
+    color: #7B7BD3;
     border-radius: 2rem;
+    border: solid 2px #7B7BD3;
     background-color: #F1B6DC;
 }
 
